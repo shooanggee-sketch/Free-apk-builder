@@ -1,3 +1,6 @@
 title: Free APK Builder
-baseurl: "/Free-apk-builder"
-url: "https://shooanggee-sketch.github.io"
+repository: shooanggee-sketch/Free-apk-builder
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-github-metadata
