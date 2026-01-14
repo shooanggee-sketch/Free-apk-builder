@@ -16,7 +16,7 @@ title: AI App & Web Builder
 async function startBuilding() {
     const prompt = document.getElementById('user-prompt').value;
     const status = document.getElementById('status-window');
-    const apiKey = "یہاں_اپنی_OPENAI_API_KEY_ڈالیں"; // اپنی کی یہاں پیسٹ کریں
+    const apiKey = "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 //
 
     if(!prompt) { alert("پہلے ہدایت لکھیں!"); return; }
 
