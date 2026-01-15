@@ -16,7 +16,7 @@ title: AI App & Web Builder
 async function startBuilding() {
     const prompt = document.getElementById('user-prompt').value;
     const status = document.getElementById('status-window');
-    const apiKey = " "
+    const apiKey = "";
     if(!prompt) { alert("پہلے ہدایت لکھیں!"); return; }
 
     status.innerHTML += `<p><strong>آپ:</strong> ${prompt}</p>`;
